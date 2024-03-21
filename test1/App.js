@@ -11,12 +11,12 @@ export default function App() {
   const handlePress = () => {
     setProgress((prevProgress) => prevProgress + 0.1);
   };
-  
+
 
   return (
     <View style={styles.centered}>
       <ProgressBar progress={progress} width={200} height={20} />
-      <Button onPress={handlePress} title="Increase progress" />
+      <Button onPress={handlePress} title="Add rewards" />
       <Text>Progress: {(progress * 100).toFixed(0)}%</Text>
     </View>
   );
