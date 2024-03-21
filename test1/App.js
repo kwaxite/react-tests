@@ -11,6 +11,7 @@ export default function App() {
   const handlePress = () => {
     setProgress((prevProgress) => prevProgress + 0.1);
   };
+  
 
   return (
     <View style={styles.centered}>
